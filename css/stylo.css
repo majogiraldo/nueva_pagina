@@ -1,0 +1,85 @@
+
+html {
+	font-family: 'Slabo 27px', serif;
+}
+
+header{
+	height:  100px;
+	margin-right: 10px;
+	padding: 10px 10px 20px 10px;
+	border-bottom: 5px solid #2c3e50;
+}
+body{
+	background-image: url(http://www.webtexture.net/wp-content/gallery/20-seamless-paper-texture/papar_texture_thumb01.jpg);
+}
+
+h1{
+	display: inline-block;
+	float: center;
+	padding: 20px;
+}
+header img{
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+}
+header ul a li{
+	background-color: #2c3e50;
+	border: 2px solid blue;
+	color: #fff;
+	list-style: none;
+	margin-top: 10px;
+	float: right;
+	padding: 10px;
+	text-decoration: none;
+}
+header ul a li:hover{
+	background-color: #2c3e10;
+	color: blue;
+}
+
+.container{
+	
+	background-color: #ecf0f1;
+	border-radius: 10px;
+	box-shadow: 4px	4px 20px grey;
+	float: left;
+	margin: 10px;
+	padding: 10px;
+	text-align: justify;
+	width: 600px;
+
+}
+.container h2{
+	display: block;
+}
+
+.lateral{
+	width: 100px;
+	display: inline-block;
+	float: right;
+}
+
+.lateral a{
+	color: black;
+	text-decoration: none;
+}
+
+.bottom{
+	height: 200px;
+	clear: both;
+	background-color: black;
+
+}
+
+footer .bottom ul a{
+	color: #fff;
+	text-decoration: none;
+	padding: 30px;
+	list-style: none;
+
+}
+
+.bottom p{
+	color: #fff;
+}
